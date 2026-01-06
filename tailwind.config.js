@@ -8,17 +8,12 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.jsx',
-        './resources/js/**/*.js', // Añadido por seguridad
     ],
 
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
-            // Aquí añadimos el color que venía en tu archivo de Figma
-            colors: {
-                "colecci-n-variable-texto": "var(--colecci-n-variable-texto)",
             },
         },
     },
