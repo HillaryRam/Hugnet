@@ -1,3 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: "Inter", sans-serif;
+    --color-texto: oklch(34.2% 0.000 none);
+    --color-morado-azulon: oklch(62.8% 0.199 269.1);
+}
+
+@supports (color: oklch(0% 0 0)) {
+    :root:has([data-theme="synthwave"]) {
+        --logo-filter: invert(1) brightness(0);
+    }
+}
