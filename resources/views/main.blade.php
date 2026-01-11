@@ -12,10 +12,13 @@
 <body class="font-sans antialiased dark:bg-[#020310] dark:text-white">
 
     <x-layouts.nav />   
-    <x-layouts.inicio />
+    <x-layouts.inicio class="mt-[65px] mb-[90px]" />
     
     <x-layouts.hugnet />
+  
+    <x-layouts.funciones />
     <x-layouts.inspiracion />
+    <x-layouts.contacto />
 
     <x-layouts.footer />
 

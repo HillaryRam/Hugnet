@@ -1,13 +1,14 @@
-<footer class="bg-[#A480F2] dark:bg-indigo-950 text-neutral-content p-10 flex flex-col items-center gap-7">
+<footer class="bg-[#A480F2] dark:bg-[#231755] text-neutral-content p-10 flex flex-col items-center gap-7">
 
   <!-- Links -->
   <div class="footer sm:footer-horizontal justify-center text-center sm:text-left gap-20">
     <nav>
         <h6 class="footer-title opacity-100 text-white">EXPLORAR</h6>
-        <a class="link link-hover">Concepto</a>
-        <a class="link link-hover">Funcionalidades</a>
-        <a class="link link-hover">Comunidad</a>
-        <a class="link link-hover">Contacto</a>
+        <a href="#concepto" class="link link-hover">Concepto</a>
+        <a href="#funciones" class="link link-hover">Funcionalidades</a>
+        <a href="#inspiracion" class="link link-hover">Comunidad</a>
+        <a href="#faq" class="link link-hover">FAQ</a>
+        <a href="#contacto" class="link link-hover">Contacto</a>
     </nav>
     <nav>
         <h6 class="footer-title opacity-100 text-white">PLATAFORMA</h6>
